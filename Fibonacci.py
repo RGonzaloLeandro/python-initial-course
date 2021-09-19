@@ -1,5 +1,5 @@
 #La leyenda de Filius Bonacci
-#Imprima  n  números de la sucesión de Fibonacci.
+#Imprima  n  números de la sucesión de Fibonacci..
 
 
 cant = int(input(" Cantidad de numeros a imprimir:"))
