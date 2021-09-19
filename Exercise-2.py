@@ -1,1 +1,2 @@
-#nmdlf
+#
+print("nmdlf")
