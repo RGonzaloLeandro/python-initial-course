@@ -22,7 +22,7 @@ def cantidadFichas(x):
         c3 += 1
         
 
-    print ("Cantodad de fichas:", cant)    
+    print ("Cantidad de fichas:", cant)    
     return (cant)
 
 
