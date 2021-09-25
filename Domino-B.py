@@ -1,4 +1,3 @@
-
 def cantidadFichas(max_value):
     fichas = []
     for i in range(0,max_value+1):
@@ -8,8 +7,8 @@ def cantidadFichas(max_value):
 
     for ficha in fichas:
         print(str(ficha[0]) + '-' + str(ficha[1]))
-    
+
     print('Cantidad de fichas: ' + str(len(fichas)))
 
 n = int(input("Ingresá el máximo valor de ficha: "))
-cantidadFichas(n)
+cantidadFichas(n) 
