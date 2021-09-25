@@ -1,4 +1,4 @@
-#Escribir una función que, dada una cantidad de fichas, calcule cuál es el  n  (valor máximo) de las fichas. Si el número de fichas no corresponde a la cantidad de fichas de ningún juego de dominó completo retornar -1.
+#Escribir una función que, dada una cantidad de fichas, calcule cuál es el n(valor máximo) de las fichas. Si el número de fichas no corresponde a la cantidad de fichas de ningún juego de dominó completo retornar "Inválido" y en caso contrario que indique "Válido" y el valor máximo de las fichas de ese juego de dominó.
 
 def valMaxFichas(maxValue):
     vmax = []
