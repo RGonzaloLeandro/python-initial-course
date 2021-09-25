@@ -11,9 +11,12 @@ def valMaxFichas(maxValue):
         print ("Inválido")
     else:
         print ("Válido")
-        print("Valor máximo de ficha:" + str(vmax[-2]))
+        print("Valor máximo de ficha:" + str(vmax[-1]))
 
 n = int(input("Cantidad de fichas?"))
-valMaxFichas(n)
+if n <= 0:
+    print ("Inválido")
+else:
+    valMaxFichas(n)
 
 
